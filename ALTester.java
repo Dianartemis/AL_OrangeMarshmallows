@@ -16,9 +16,14 @@ public class ALTester {
 		}
 		return true;
 	}
+
+	public ArrayList<Integer> getList() {
+    		return arrList;
+  	}
+
 	public static void main(String[]args) {
 		ALTester test = new ALTester();
 		System.out.println(test.checkIncreasing());
-		System.out.println(test.arrList);
+		System.out.println(test.getList());
 	}
 }
