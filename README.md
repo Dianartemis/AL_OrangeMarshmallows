@@ -10,7 +10,26 @@
 * If it runs through all values in the ArrayList with this always being true, then it returns true. Otherwise, it returns false.
 
 ### OrderedArrayList
-* OrderedArrayList has one method, addInOrder, that takes an integer ArrayList as a parameter, and a newVal integer.
-* It uses the ALTester method checkIncreasing to make sure the ArrayList it takes is already increasing (otherwise it does not alter it).
-* It then checks for each term in the ArrayList whether it is larger than the newVal.
-* Once it finds a value larger than newVal, it adds the newVal at that index and exits the for loop. If it does not reach a larger value, it adds to the end.
+* OrderedArrayList()
+  * Sets _ data as a new ArrayList.
+  * Populates _ data using a for loop to add 23 Integers.
+* toString()
+  * Formats _ data using a for loop.
+* remove(int i)
+  * Removes i from _ data.
+* size()
+  * Returns the size of _ data.
+* get(int i)
+  * Gets the Integer at index i.
+* addLinear(Integer newVal)
+  * Uses a for loop to search for the appropriate index.
+  * Inserts newVal when the Integer at index i is greater than newVal.
+  * Otherwise, adds newVal to the end of _ data.
+* addBinary(Integer newVal)
+  * Initializes min as 0, max as the last index of _ data, and middle as the middle index of _ data.
+  * Uses a while loop to check at which index to insert newVal.
+  * If the Integer at index middle is equal to newVal, newVal would be inserted after the Integer at index middle.
+  * If the Integer at index middle is less than newVal, the min would be set to the middle + 1.
+  * If the Integer at index middle is less than newVal, the min would be set to the middle - 1.
+* main()
+  * Tests addLinear() and addBinart() with two ArrayLists that are filled with random Integers.
