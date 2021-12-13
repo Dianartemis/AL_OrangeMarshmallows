@@ -1,0 +1,26 @@
+Team Orange Marshmellows: Julia Kozak, Nina Jiang, Diana Akhmedova // Duckies: Flopsy, Miss Alpaca, Ajax
+APCS pd08
+L02 -- Well Al B. Sorted
+2021-12-12
+Time Spent: 0.5 hrs
+
+DISCO:
+- Creating an (Integer) Array:
+    - ArrayList <Integer> arrList = new ArrayList<>();
+- ArrayLists cannot be set to a specific size when initally created.
+
+- add(int i, Object o) inserts o at index i.
+- add(Object o) adds o to the end of the list.
+- remove(int i) removes the elment at index i.
+- get(int i) returns the element at index i.
+- set(int i, Object o) replaces the element at index i with o.
+- size() returns the number of elements in the list.
+
+- add, get, remove, and set are built-in functions of ArrayList.
+- Once an ArrayList is initialized, elements can be added to it indefinitely and it automatically resizes itself.
+- Unlike length of an array that returns the number of slots set aside in the array, size() returns the number of elements in an ArrayList.
+
+QCC:
+- Should we also include a functionality to sort the ArrayList, if it is not already in increasing order?
+- Why is the only default size for an ArrayList 0, i.e. why can't we set an initial size to an ArrayList?
+- What would be functionality if we wanted to add a method that would remove items in an increasing order?
