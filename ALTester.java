@@ -2,17 +2,15 @@ import java.util.*;
 
 public class ALTester {
 	ArrayList<Integer> arrList;
-	
 	public ALTester () {
 		arrList = new ArrayList<>();
 		for(int i = 0; i < 23; i++) {
 			arrList.add(i);
 		}
 	}
-
-	public static boolean checkIncreasing (ArrayList<Integer> a) {
+	public boolean checkIncreasing () {
 		for(int i = 0; i < 22; i++) {
-			if(a.get(i) > a.get(i+1)) {
+			if(arrList.get(i) > arrList.get(i+1)) {
 				return false;
 			}
 		}
@@ -25,7 +23,7 @@ public class ALTester {
 
 	public static void main(String[]args) {
 		ALTester test = new ALTester();
-		System.out.println(test.checkIncreasing(test.getList()));
+		System.out.println(test.checkIncreasing());
 		System.out.println(test.getList());
 	}
 }
