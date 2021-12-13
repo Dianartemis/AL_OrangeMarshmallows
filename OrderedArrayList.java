@@ -25,9 +25,9 @@ public class OrderedArrayList
   public OrderedArrayList()
   {
   _data = new ArrayList<>();
-  for (int i=0; i<23; i++) {
-  	_data.add(i);
-  }
+  for(int i=0; i<23; i++) {
+	_data.add(i);
+}
   }
 
   public String toString()
