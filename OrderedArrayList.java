@@ -2,7 +2,7 @@ import java.util.*;
 
 public class OrderedArrayList {
   public static void addInOrder(ArrayList<Integer> a, int newVal) {
-    for (int i=0; i<a.size()-1; i++) {
+    for (int i = 0; i < a.size() - 1; i++) {
       if (a.get(i) > newVal) {
         a.add(i, newVal);
         break;
@@ -12,7 +12,7 @@ public class OrderedArrayList {
       a.add(newVal);
     }
   }
-  
+
   public static void main(String[] args) {
     ALTester A = new ALTester();
     System.out.println(A.getList());
@@ -32,6 +32,7 @@ public class OrderedArrayList {
     for (int i=0; i<41; i++) {
       intArr.add(2*i+1);
     }
+
     System.out.println(intArr);
     OrderedArrayList.addInOrder(intArr, -1);
     System.out.println(intArr);
