@@ -12,6 +12,7 @@ public class OrderedArrayList {
       a.add(newVal);
     }
   }
+  
   public static void main(String[] args) {
     ALTester A = new ALTester();
     System.out.println(A.getList());
@@ -36,4 +37,3 @@ public class OrderedArrayList {
     System.out.println(intArr);
   }
 }
-

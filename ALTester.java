@@ -2,12 +2,14 @@ import java.util.*;
 
 public class ALTester {
 	ArrayList<Integer> arrList;
+	
 	public ALTester () {
 		arrList = new ArrayList<>();
 		for(int i = 0; i < 23; i++) {
 			arrList.add(i);
 		}
 	}
+
 	public boolean checkIncreasing () {
 		for(int i = 0; i < 22; i++) {
 			if(arrList.get(i) > arrList.get(i+1)) {
