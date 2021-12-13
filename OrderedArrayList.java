@@ -1,5 +1,5 @@
-// Clyde "Thluffy" Sinclair
-// APCS pd00
+// Team Orange Marshmallows: Julia Kozak, Diana Akhmedova, Nina Jiang // Duckies: Flopsy, Ajax, Miss Alpaca
+// APCS pd08
 // Lab02
 // 2021-12-13
 
