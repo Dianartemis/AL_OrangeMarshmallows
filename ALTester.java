@@ -10,9 +10,9 @@ public class ALTester {
 		}
 	}
 
-	public boolean checkIncreasing () {
+	public static boolean checkIncreasing (ArrayList<Integer> a) {
 		for(int i = 0; i < 22; i++) {
-			if(arrList.get(i) > arrList.get(i+1)) {
+			if(a.get(i) > a.get(i+1)) {
 				return false;
 			}
 		}
@@ -25,7 +25,7 @@ public class ALTester {
 
 	public static void main(String[]args) {
 		ALTester test = new ALTester();
-		System.out.println(test.checkIncreasing());
+		System.out.println(test.checkIncreasing(test.getList()));
 		System.out.println(test.getList());
 	}
 }
